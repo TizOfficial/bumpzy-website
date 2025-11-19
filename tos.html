@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bumpzy – Terms of Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #05060a;
+      --card-bg: #0c0f17;
+      --accent1: #c754ff;
+      --accent2: #19a4ff;
+      --text-main: #f5f5f7;
+      --text-muted: #9ba0b5;
+      --border-subtle: rgba(255, 255, 255, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(199, 84, 255, 0.18), transparent 55%),
+        radial-gradient(circle at bottom right, rgba(25, 164, 255, 0.2), transparent 55%),
+        var(--bg);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 32px 16px;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 960px;
+    }
+
+    .card {
+      background-color: rgba(5, 6, 10, 0.85);
+      border-radius: 24px;
+      border: 1px solid var(--border-subtle);
+      box-shadow:
+        0 32px 80px rgba(0, 0, 0, 0.7),
+        0 0 0 1px rgba(255, 255, 255, 0.01);
+      padding: 28px 24px 32px;
+      backdrop-filter: blur(18px);
+    }
+
+    @media (min-width: 720px) {
+      .card {
+        padding: 32px 40px 40px;
+      }
+    }
+
+    .header {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .logo-wrap {
+      width: 72px;
+      height: 72px;
+      border-radius: 20px;
+      background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.1), transparent 60%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .logo-wrap img {
+      display: block;
+      width: 64px;
+      height: 64px;
+      object-fit: contain;
+    }
+
+    .headline {
+      flex: 1;
+    }
+
+    .headline h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .headline h1 span {
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .headline p {
+      margin-top: 4px;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: radial-gradient(circle at top left, rgba(199, 84, 255, 0.2), transparent 65%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 8px;
+    }
+
+    .pill-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      box-shadow: 0 0 10px rgba(25, 164, 255, 0.8);
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      margin: 22px 0 8px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.55;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    ul {
+      margin: 4px 0 10px 18px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    ul li {
+      margin-bottom: 4px;
+    }
+
+    .divider {
+      margin: 18px 0;
+      border: 0;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .footer-note {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 10px;
+    }
+
+    a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <main class="card">
+      <header class="header">
+        <div class="logo-wrap">
+          <!-- HIER dein Logo einfügen (Dateiname anpassen) -->
+          <img src="bumpzy-logo.png" alt="Bumpzy Logo">
+        </div>
+        <div class="headline">
+          <h1><span>Bumpzy</span> – Terms of Service</h1>
+          <p>Nutzungsbedingungen für den Discord-Bot „Bumpzy“.</p>
+          <div class="pill">
+            <span class="pill-dot"></span>
+            <span>Stand: 2025-11-19</span>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <h2>1. Einleitung</h2>
+        <p>Diese Nutzungsbedingungen („Terms of Service“) gelten für die Nutzung des Discord-Bots
+          <strong>Bumpzy</strong> und aller verbundenen Dienste. Durch die Nutzung von Bumpzy stimmst du diesen
+          Bedingungen zu.</p>
+
+        <h2>2. Nutzungsvoraussetzungen</h2>
+        <p>Du erklärst dich damit einverstanden, dass:</p>
+        <ul>
+          <li>du mindestens <strong>13 Jahre alt</strong> bist (gemäß den Discord-Richtlinien),</li>
+          <li>du die <strong>Discord Terms of Service</strong> und <strong>Community Guidelines</strong> einhältst,</li>
+          <li>du Bumpzy nicht für rechtswidrige oder verbotene Zwecke verwendest.</li>
+        </ul>
+
+        <h2>3. Verbotene Inhalte & Nutzung</h2>
+        <p>Server, die Bumpzy nutzen, dürfen insbesondere keine Inhalte hosten, die:</p>
+        <ul>
+          <li>pornografisch oder stark NSFW sind,</li>
+          <li>Hassrede, Diskriminierung, Extremismus oder Gewalt verherrlichen,</li>
+          <li>illegale Aktivitäten fördern (z. B. Betrug, Doxxing, Hacking, Drogenhandel),</li>
+          <li>Scam, Fake-Gewinnspiele oder irreführende Werbung beinhalten,</li>
+          <li>Selbstverletzung, Suizid oder gefährliche Handlungen unterstützen.</li>
+        </ul>
+        <p>Wir behalten uns das Recht vor, Server jederzeit ohne Vorwarnung zu sperren oder aus Systemen und
+          Listen zu entfernen.</p>
+
+        <h2>4. Funktionen & Verfügbarkeit</h2>
+        <p>Bumpzy bietet u. a. Bump-Funktionen, Server-Promotion und Community-Features. Es wird
+          <strong>nicht garantiert</strong>, dass dein Server dadurch Mitglieder, Aktivität oder Wachstum erhält.</p>
+        <p>Wir können Funktionen, Limits und die Verfügbarkeit des Bots jederzeit ändern, einschränken oder einstellen,
+          ohne dich vorher informieren zu müssen.</p>
+
+        <h2>5. Datenspeicherung & Datenschutz</h2>
+        <p>Bumpzy speichert nur die für den Dienst notwendigen Daten, z. B.:</p>
+        <ul>
+          <li>Server-ID und Server-Name,</li>
+          <li>Bump-Zeitpunkte und Statistiken,</li>
+          <li>von dir angegebene Beschreibungen, Tags oder Links,</li>
+          <li>ggf. User-ID des Nutzers, der den Bump ausführt.</li>
+        </ul>
+        <p>Bumpzy speichert keine Inhalte aus Nachrichtenkanälen, keine DMs und keine sensiblen Inhalte. Daten werden
+          nicht verkauft und nur im technisch notwendigen Rahmen verarbeitet.</p>
+        <p>Weitere Details zur Verarbeitung personenbezogener Daten findest du in unserer
+          <a href="privacy.html">Privacy Policy</a> (Datenschutzerklärung), sofern vorhanden.</p>
+
+        <h2>6. Missbrauch & Sanktionen</h2>
+        <p>Bei Verstößen gegen diese Bedingungen oder gegen Discord-Richtlinien können u. a. folgende Maßnahmen ergriffen
+          werden:</p>
+        <ul>
+          <li>Verwarnungen,</li>
+          <li>temporäre Sperren einzelner Server,</li>
+          <li>permanente Sperren oder Blacklisting,</li>
+          <li>Löschen von Einträgen, Werbe- oder Bump-Daten.</li>
+        </ul>
+        <p>Ein Anspruch auf Wiederherstellung, Entschädigung oder Erstattung besteht nicht.</p>
+
+        <h2>7. Haftungsausschluss</h2>
+        <p>Bumpzy wird „<em>as is</em>“ bereitgestellt. Wir übernehmen keine Gewähr für:</p>
+        <ul>
+          <li>die ständige Verfügbarkeit des Bots,</li>
+          <li>Fehlerfreiheit oder Unterbrechungsfreiheit,</li>
+          <li>konkrete Ergebnisse wie Wachstum, Reichweite oder Aktivität.</li>
+        </ul>
+        <p>Wir haften nicht für direkte oder indirekte Schäden, Datenverlust oder sonstige Nachteile, die durch die
+          Nutzung oder Nichtverfügbarkeit von Bumpzy entstehen, soweit gesetzlich zulässig.</p>
+
+        <h2>8. Änderungen der Terms of Service</h2>
+        <p>Wir können diese Nutzungsbedingungen jederzeit anpassen. Die jeweils aktuelle Version wird unter
+          <code>terms.html</code> veröffentlicht. Mit der weiteren Nutzung von Bumpzy nach einer Änderung erklärst du dich
+          mit den aktualisierten Bedingungen einverstanden.</p>
+
+        <h2>9. Kontakt</h2>
+        <p>Bei Fragen zu Bumpzy oder diesen Nutzungsbedingungen erreichst du uns über unseren Discord-Support-Server:
+          <strong>https://discord.gg/DGR8VwecxK</strong></p>
+      </section>
+
+      <hr class="divider" />
+
+      <p class="footer-note">
+        Hinweis: Bumpzy ist ein inoffizielles Community-Projekt und steht in keiner direkten Verbindung zu Discord Inc.
+      </p>
+    </main>
+  </div>
+</body>
+</html>

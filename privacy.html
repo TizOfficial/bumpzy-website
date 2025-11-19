@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bumpzy – Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #05060a;
+      --card-bg: #0c0f17;
+      --accent1: #c754ff;
+      --accent2: #19a4ff;
+      --text-main: #f5f5f7;
+      --text-muted: #9ba0b5;
+      --border-subtle: rgba(255, 255, 255, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(199, 84, 255, 0.18), transparent 55%),
+        radial-gradient(circle at bottom right, rgba(25, 164, 255, 0.2), transparent 55%),
+        var(--bg);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 32px 16px;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 960px;
+    }
+
+    .card {
+      background-color: rgba(5, 6, 10, 0.85);
+      border-radius: 24px;
+      border: 1px solid var(--border-subtle);
+      box-shadow:
+        0 32px 80px rgba(0, 0, 0, 0.7),
+        0 0 0 1px rgba(255, 255, 255, 0.01);
+      padding: 28px 24px 32px;
+      backdrop-filter: blur(18px);
+    }
+
+    @media (min-width: 720px) {
+      .card {
+        padding: 32px 40px 40px;
+      }
+    }
+
+    .header {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .logo-wrap {
+      width: 72px;
+      height: 72px;
+      border-radius: 20px;
+      background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.1), transparent 60%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .logo-wrap img {
+      display: block;
+      width: 64px;
+      height: 64px;
+      object-fit: contain;
+    }
+
+    .headline {
+      flex: 1;
+    }
+
+    .headline h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .headline h1 span {
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .headline p {
+      margin-top: 4px;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: radial-gradient(circle at top left, rgba(199, 84, 255, 0.2), transparent 65%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 8px;
+    }
+
+    .pill-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      box-shadow: 0 0 10px rgba(25, 164, 255, 0.8);
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      margin: 22px 0 8px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.55;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    ul {
+      margin: 4px 0 10px 18px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    ul li {
+      margin-bottom: 4px;
+    }
+
+    .divider {
+      margin: 18px 0;
+      border: 0;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .footer-note {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 10px;
+    }
+
+    a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.85em;
+      background: rgba(255, 255, 255, 0.03);
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <main class="card">
+      <header class="header">
+        <div class="logo-wrap">
+          <!-- Logo-Datei anpassen -->
+          <img src="bumpzy-logo.png" alt="Bumpzy Logo">
+        </div>
+        <div class="headline">
+          <h1><span>Bumpzy</span> – Privacy Policy</h1>
+          <p>Datenschutzerklärung für den Discord-Bot „Bumpzy“.</p>
+          <div class="pill">
+            <span class="pill-dot"></span>
+            <span>Stand: 2025-11-19</span>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <h2>1. Einleitung</h2>
+        <p>Diese Datenschutzerklärung informiert dich darüber, welche Daten der Discord-Bot
+          <strong>Bumpzy</strong> verarbeitet, zu welchen Zwecken dies geschieht und welche Rechte du in Bezug auf deine
+          Daten hast.</p>
+        <p>Die Verarbeitung erfolgt im Einklang mit den geltenden Datenschutzgesetzen, insbesondere der DSGVO, soweit
+          anwendbar.</p>
+
+        <h2>2. Verantwortlicher</h2>
+        <p>Verantwortlich für die Datenverarbeitung im Zusammenhang mit Bumpzy ist:</p>
+        <p>
+          <strong>Betreiber von „Bumpzy“</strong><br>
+          Discord: <strong><a href="https://discord.com/users/1024738028301865031">@devtim99</a></strong><br>
+          Support: <strong><a href="https://discord.gg/DGR8VwecxK">https://discord.gg/DGR8VwecxK</a></strong>
+        </p>
+
+        <h2>3. Welche Daten verarbeitet Bumpzy?</h2>
+        <p>Bumpzy verarbeitet nur Daten, die für die Funktionen des Bots nötig sind, z. B.:</p>
+        <ul>
+          <li><strong>Serverdaten:</strong> Server-ID, Server-Name, ggf. Icon, Sprache, Kategorien, Beschreibung,
+            Invite-Links, Bump-Zeiten.</li>
+          <li><strong>Nutzerdaten (technisch notwendig):</strong> Discord-User-ID des Nutzers, der einen Bump oder
+            relevante Commands ausführt.</li>
+          <li><strong>Nutzungsdaten:</strong> Timestamp von Bumps, Anzahl der Bumps, ggf. Statistiken pro Server.</li>
+        </ul>
+        <p>Bumpzy liest keine Nachrichteninhalte aus Channels, speichert keine DMs und verarbeitet keine sensiblen Inhalte
+          wie Passwörter oder Zahlungsinformationen.</p>
+
+        <h2>4. Zwecke der Datenverarbeitung</h2>
+        <p>Die Verarbeitung deiner Daten erfolgt zu folgenden Zwecken:</p>
+        <ul>
+          <li>Bereitstellung der Bump- und Werbefunktionen von Bumpzy,</li>
+          <li>Verwaltung von Bump-Cooldowns und Ranglisten,</li>
+          <li>Missbrauchserkennung (z. B. Spam, Manipulation),</li>
+          <li>technischer Betrieb, Fehleranalyse und Verbesserung des Bots.</li>
+        </ul>
+
+        <h2>5. Rechtsgrundlagen</h2>
+        <p>Die Verarbeitung basiert – je nach Situation – insbesondere auf folgenden Rechtsgrundlagen der DSGVO, soweit
+          anwendbar:</p>
+        <ul>
+          <li><strong>Art. 6 Abs. 1 lit. b DSGVO</strong> – Erfüllung eines (quasi-)vertraglichen Nutzungsverhältnisses
+            (Bereitstellung des Bots),</li>
+          <li><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> – berechtigtes Interesse an einem sicheren, funktionierenden und
+            vor Missbrauch geschützten Dienst.</li>
+        </ul>
+
+        <h2>6. Speicherdauer</h2>
+        <p>Daten werden nur so lange gespeichert, wie es für die genannten Zwecke erforderlich ist.</p>
+        <ul>
+          <li>Server- und Bumpdaten: solange der Server Bumpzy nutzt und die Daten für Statistiken / Funktionen benötigt
+            werden.</li>
+          <li>Logs und Fehlerdaten: in der Regel nur kurzfristig, bis Probleme analysiert und behoben wurden.</li>
+        </ul>
+        <p>Du kannst jederzeit die Löschung deines Servers aus den Systemen von Bumpzy anfragen.</p>
+
+        <h2>7. Weitergabe von Daten</h2>
+        <p>Deine Daten werden grundsätzlich nicht verkauft oder zu Werbezwecken an Dritte weitergegeben.</p>
+        <p>Eine Weitergabe kann erfolgen, wenn:</p>
+        <ul>
+          <li>dies technisch erforderlich ist (z. B. Hosting-Anbieter, Datenbank-Provider),</li>
+          <li>eine gesetzliche Verpflichtung besteht,</li>
+          <li>es zur Durchsetzung von Rechten bei Missbrauch erforderlich ist.</li>
+        </ul>
+
+        <h2>8. Hosting & technische Infrastruktur</h2>
+        <p>Bumpzy wird auf Servern eines externen Hosting-Anbieters betrieben. Dabei können technisch bedingt
+          Verbindungsdaten (z. B. IP-Adressen, Zeitstempel, technische Log-Dateien) verarbeitet werden. Diese Daten dienen
+          ausschließlich dem Betrieb, der Sicherheit und Stabilität des Dienstes.</p>
+        <p>Konkrete Informationen zum Hosting-Anbieter können auf Anfrage zur Verfügung gestellt werden.</p>
+
+        <h2>9. Deine Rechte</h2>
+        <p>Soweit die DSGVO anwendbar ist, hast du folgende Rechte in Bezug auf deine personenbezogenen Daten:</p>
+        <ul>
+          <li>Recht auf Auskunft (Art. 15 DSGVO),</li>
+          <li>Recht auf Berichtigung (Art. 16 DSGVO),</li>
+          <li>Recht auf Löschung (Art. 17 DSGVO),</li>
+          <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO),</li>
+          <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO),</li>
+          <li>Recht auf Widerspruch gegen bestimmte Verarbeitungen (Art. 21 DSGVO).</li>
+        </ul>
+        <p>Zur Ausübung deiner Rechte kannst du dich jederzeit über den Support-Server oder direkt per Discord an den
+          Betreiber wenden.</p>
+
+        <h2>10. Nutzung von Discord</h2>
+        <p>Bumpzy ist ein Bot innerhalb der Plattform Discord. Deine Nutzung von Discord selbst unterliegt ausschließlich
+          den <a href="https://discord.com/terms" target="_blank" rel="noopener noreferrer">Discord Terms of Service</a>
+          und der <a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">Discord
+          Privacy Policy</a>. Auf diese Verarbeitung hat der Betreiber von Bumpzy keinen Einfluss.</p>
+
+        <h2>11. Änderungen dieser Datenschutzerklärung</h2>
+        <p>Diese Datenschutzerklärung kann jederzeit angepasst werden, wenn sich der Dienst oder rechtliche Vorgaben
+          ändern. Die jeweils aktuelle Version ist unter <code>privacy.html</code> abrufbar.</p>
+
+        <h2>12. Kontakt</h2>
+        <p>Wenn du Fragen zu dieser Datenschutzerklärung oder zur Datenverarbeitung durch Bumpzy hast, kontaktiere uns
+          bitte:</p>
+        <p>
+          Discord: <strong><a href="https://discord.com/users/1024738028301865031">@devtim99</a></strong><br>
+          Support: <strong><a href="https://discord.gg/DGR8VwecxK">https://discord.gg/DGR8VwecxK</a></strong>
+        </p>
+      </section>
+
+      <hr class="divider" />
+
+      <p class="footer-note">
+        Hinweis: Diese Datenschutzerklärung stellt keine individuelle Rechtsberatung dar. Bei speziellen rechtlichen
+        Fragen solltest du professionellen Rat einholen.
+      </p>
+    </main>
+  </div>
+</body>
+</html>
