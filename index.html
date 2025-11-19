@@ -1,1 +1,170 @@
-coming soon
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bumpzy – Grow Your Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #05060a;
+      --accent1: #c754ff;
+      --accent2: #19a4ff;
+      --text-main: #f5f5f7;
+      --text-muted: #9ba0b5;
+      --border-subtle: rgba(255, 255, 255, 0.06);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(199,84,255,0.18), transparent 55%),
+        radial-gradient(circle at bottom right, rgba(25,164,255,0.22), transparent 55%),
+        var(--bg);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 32px 16px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 28px;
+      padding: 12px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    h1 {
+      margin-top: 4px;
+      font-size: 2.4rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .slogan {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: var(--text-muted);
+    }
+
+    .buttons {
+      margin-top: 32px;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.25s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-invite {
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      box-shadow: 0 0 18px rgba(25,164,255,0.35);
+    }
+
+    .btn-invite:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 22px rgba(25,164,255,0.55);
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.12);
+    }
+
+    footer {
+      margin-top: 48px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    footer a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-links {
+      margin-top: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="bumpzy-logo.png" alt="Bumpzy Logo">
+    </div>
+
+    <!-- TITLE -->
+    <h1>Bumpzy</h1>
+    <p class="slogan">Grow Your Server – Boost Visibility. Gain Members.</p>
+
+    <!-- BUTTONS -->
+    <div class="buttons">
+      <a href="DEIN_INVITE_LINK" class="btn btn-invite">🚀 Bot einladen</a>
+      <a href="https://discord.gg/DEIN-SUPPORT" class="btn btn-secondary">💬 Support Server</a>
+    </div>
+
+    <footer>
+      <p>© 2025 Bumpzy – Designed für Discord Communities.<br>
+      Keine Verbindung zu Discord Inc.</p>
+
+      <div class="footer-links">
+        <a href="terms.html">📄 Terms of Service</a> •
+        <a href="privacy.html">🔐 Privacy Policy</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
